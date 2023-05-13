@@ -1,4 +1,4 @@
-function stringhandsOn(){
+function stringHandsOn(){
     var str = "  Hey you are doing good, keep it up   ";
     console.log("String:",str);
 
