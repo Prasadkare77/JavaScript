@@ -21,6 +21,6 @@ function wordsString(){
     console.log(`Total no of words available in string is: ${totalWords.length}`);
     console.log(`Total words are: ${totalWords}`);
     console.log(`String Length (22) / Divided by Total Words (4): ${stringLength/totalWords.length}`);
-    console.log(`String Length (22) / Multiply by Total Words (4): ${stringLength*totalWords.length}`);
+    console.log(`String Length (22) * Multiply by Total Words (4): ${stringLength*totalWords.length}`);
 }
 wordsString();
