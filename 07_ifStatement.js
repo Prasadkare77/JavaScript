@@ -28,5 +28,4 @@ if (isbridgeCollapsed) {
   }
   console.log(`After If Else Statment`);
 
-
-
+console.log();

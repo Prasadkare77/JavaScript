@@ -3,7 +3,7 @@ voting or not, Then accordingly disply messege on consol, don't return the value
 
 console.log(``);
 
-function voteEligibility(age){
+function voteEligibility(age) {
     console.log(`Age is: ${age}`);
     if ((age == undefined || age == null) || (age == 0 || age < 0 || age > 120)) {
         console.log(`Invalid data.`);
@@ -12,7 +12,7 @@ function voteEligibility(age){
         if (age < 18) {
             console.log(`You are not eligible for vote.`);
         } else {
-            console.log(`You are Eligible for Vote.`);
+            console.log(`You are eligible for Vote.`);
         }
     }
     console.log(``);
