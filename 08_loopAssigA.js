@@ -20,27 +20,31 @@ vowels("I am very good IT Developer");
 console.log(``);
 
 console.log(`2. Write a function to get the sum of cube of number from 1 to 5.`);
-function sumOfCube() {
-    console.log(`Number is:`);
+var sumOfCube = function(num) {
     var sum = 0;
-    for ( let i=1; i<=5; i++){
+    for ( let i=1; i<=num; i++){
         var cube = i*i*i;
         console.log(`Cube of ${i}: ${cube}`);
         sum = sum + cube;
     }
     console.log(`Sum of cube of numbers from 1 to 5: ${sum}`);
 }
-sumOfCube();
+sumOfCube(5);
+sumOfCube(9);
 
 console.log(``);
 
 console.log(`3. Odd position characters from given string`);
 function oddPositionedChars(string) {
     console.log(`String is: "${string}"`);
+    var oddString = "";
     for (let i=0; i<string.length; i++){
-        if(i%2 != 0 && string.charAt(i)!= ' '){
-            console.log(`Odd Position: ${i}, Charater is: ${string.charAt(i)}`);
+        var char = string.charAt(i);
+        if(i%2 != 0 && char!= ' '){
+            oddString = oddString + char;
+            console.log(`Odd Position: ${i}, Charater is: ${char}`);
         }
+        console.log(oddString);
     }
     console.log(``);
 }
