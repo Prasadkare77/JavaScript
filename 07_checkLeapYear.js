@@ -1,6 +1,9 @@
 console.log(`Function Expression using if else to check given year is leap year or not.`);
+
 var checkLeapYear = function (leapYear) {
+
     console.log(`Year is: ${leapYear}`);
+
     if (leapYear == undefined || leapYear == null || isNaN(leapYear)) {
         console.log(`Invalid Input`);
     } else if(leapYear%4==0){
@@ -8,6 +11,7 @@ var checkLeapYear = function (leapYear) {
     } else {
         console.log(`${leapYear}, this is not a Leap Year.`);
     }
+    
     console.log(``);
 }
 checkLeapYear(2020);
