@@ -2,7 +2,7 @@ function countCharA(string) {
     console.log(`String is: ${string}`);
     var countOfa = 0;
     var countOfA = 0;
-    for(let i=0; i<=string.length; i++){
+    for(let i=0; i<string.length; i++){
         var char = string.charAt(i);
         if(char == 'a'){
             countOfa++

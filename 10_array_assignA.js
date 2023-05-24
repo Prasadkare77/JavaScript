@@ -46,10 +46,5 @@ function seasonalFruits() {
   let lastThree = arrayFruits.slice(4,7);
   console.log("Array is: ",lastThree);
   console.log(``);
-
-  
-
-
-
 }
 seasonalFruits();
