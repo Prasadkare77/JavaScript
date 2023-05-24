@@ -22,9 +22,8 @@ console.log(``);
 console.log(`4. Find the all even numbers using for in loop and log on console.`);
 for (const i in arrayNumbers) {
     if (arrayNumbers[i] % 2 == 0) {
-        //  var allEvenNum = arrayNumbers[i];
-        //  console.log(`Even numbers is: ${allEvenNum}`);
-        console.log("All even number is");
+         var allEvenNum = arrayNumbers[i];
+         console.log(`Even numbers is: ${allEvenNum}`);
     }
 }
 console.log(``);
@@ -55,11 +54,11 @@ let oddSum = 0;
 for (const i in arrayNumbers) {
     if (i % 2 != 0){
         let oddPositionElement = arrayNumbers[i];
-        console.log(`Even Position: ${i}, element is: ${oddPositionElement}`);
+        console.log(`Odd Position: ${i}, element is: ${oddPositionElement}`);
         oddSum = oddSum + oddPositionElement;    
     }
 }
-console.log(`Sum of Even Position Element is: ${oddSum}`);
+console.log(`Sum of Odd Position Element is: ${oddSum}`);
 console.log(``);
 
 console.log(`8. Find the sum of all elements from arrayNames, log on console.`);
