@@ -137,4 +137,12 @@ console.log(concatArray);
 console.log(`------ Resize an array -------`);
 var arrayNames = ["Anil", "Siya", "Ram" ,"Sunil", "Jenny"];
 arrayNames.length = 3;
+console.table(arrayNames);
+
+console.log(`Spread Operator ...`);
+var arrayNames = ["Anil", "Siya", "Ram" ,"Sunil", "Jenny"];
 console.log(arrayNames);
+console.log(...arrayNames);
+
+const newArray = [...arrayNames];
+console.log(newArray);

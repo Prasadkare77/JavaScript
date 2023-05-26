@@ -26,3 +26,4 @@ console.log(typeof rollNo);
 for (const element of rollNo) {
     console.log(element);
 }
+

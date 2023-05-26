@@ -24,6 +24,7 @@ for (const i in arrayNumbers) {
     if (arrayNumbers[i] % 2 == 0) {
          var allEvenNum = arrayNumbers[i];
          console.log(`Even numbers is: ${allEvenNum}`);
+        //  console.table(`Even numbers is: ${allEvenNum}`);
     }
 }
 console.log(``);
