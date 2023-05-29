@@ -1,3 +1,4 @@
+let result = "";
 const arrayNumbers = [20,31,40,25,23,11,29,9,60,2,11];
 console.log(`Array Is: ${arrayNumbers}`);
 console.log(``);
@@ -20,45 +21,47 @@ console.log(`Last Third Element is: ${arrayNumbers[lastThirdElement]}`);
 console.log(``);
 
 console.log(`4. Find the all even numbers using for in loop and log on console.`);
+let allEvenNum = "";
 for (const i in arrayNumbers) {
     if (arrayNumbers[i] % 2 == 0) {
-         var allEvenNum = arrayNumbers[i];
-         console.log(`Even numbers is: ${allEvenNum}`);
-        //  console.table(`Even numbers is: ${allEvenNum}`);
+        allEvenNum += arrayNumbers[i] + " ";    
     }
-}
+}console.log(`Even numbers is: ${allEvenNum}`);
 console.log(``);
 
 console.log(`5. Find all odd numbers for in loop amd log on console.`);
+let allOddNum = "";
 for (const i in arrayNumbers) {
     if(arrayNumbers[i] % 2 != 0){
-        var allOddNum = arrayNumbers[i];
-        console.log(`Odd Number is: ${allOddNum}`);
+        allOddNum += arrayNumbers[i] + " ";
     }
 }
+console.log(`Odd Number is: ${allOddNum}`);
 console.log(``);
 
 console.log(`6. Find all the even positioned elements from arrayNumbers, Sum it and log on console.`);
 let evenSum = 0;
+let evenPositionElement = "";
 for (const i in arrayNumbers) {
     if (i % 2 == 0){
-        let evenPositionElement = arrayNumbers[i];
-        console.log(`Even Position: ${i}, element is: ${evenPositionElement}`);
-        evenSum = evenSum + evenPositionElement;    
+        evenPositionElement += arrayNumbers[i] + " "; 
+        evenSum = evenSum + arrayNumbers[i];   
     }
 }
+console.log(`Even Position Element is: ${evenPositionElement}`);
 console.log(`Sum of Even Position Element is: ${evenSum}`);
 console.log(``);
 
 console.log(`7. Find all the odd positioned elements from arrayNumbers, Sum it and log on console.`);
 let oddSum = 0;
+let oddPositionElement = "";
 for (const i in arrayNumbers) {
     if (i % 2 != 0){
-        let oddPositionElement = arrayNumbers[i];
-        console.log(`Odd Position: ${i}, element is: ${oddPositionElement}`);
-        oddSum = oddSum + oddPositionElement;    
+        oddPositionElement += arrayNumbers[i] + " ";
+        oddSum = oddSum + arrayNumbers[i];   
     }
 }
+console.log(`Odd Position Element is: ${oddPositionElement}`);
 console.log(`Sum of Odd Position Element is: ${oddSum}`);
 console.log(``);
 
@@ -71,12 +74,13 @@ console.log(`Sum of all element is: ${sumOfAll}`);
 console.log(``);
 
 console.log(`9. Find the numbers which are multiple of 5.`);
+let multipleOfFive = "";
 for (const i in arrayNumbers) {
     if(arrayNumbers[i] % 5 == 0){
-        let multipleOfFive = arrayNumbers[i];
-        console.log(`Number which are multiple of 5 is: ${multipleOfFive}`);
+        multipleOfFive += arrayNumbers[i] + " ";
     }
 }
+console.log(`Number which are multiple of 5 is: ${multipleOfFive}`);
 console.log(``);
 
 console.log(`10. Is Number 115 available in arrayNumbers?`);
