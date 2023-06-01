@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Session Storage</h2>
+    <script>
+        window.sessionStorage.setItem("Name", "Prasad");
+        window.sessionStorage.setItem("Country", "India");
+        window.sessionStorage.setItem("Pin", "413121")
+
+        //Remove Item
+        window.sessionStorage.removeItem("Pin");
+
+        //Get the item
+        const countryItem = window.sessionStorage.getItem("Country");
+        console.log(countryItem);
+    </script>
+</body>
+</html>
