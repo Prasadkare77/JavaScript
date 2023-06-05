@@ -15,4 +15,4 @@ function stringHandsOn(){
     var trimLastChar = str.trimEnd();
     console.log("First character:",trimFirstChar.charAt(0), ",", "Last character:",trimLastChar.charAt(trimLastChar.length-1));
 }
-stringhandsOn();
+stringHandsOn();
