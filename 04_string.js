@@ -7,7 +7,7 @@ var charAtZeroIndex = greet.charAt(0);
 console.log("Char atzero index:",charAtZeroIndex); 
 
 var charAtLastIndex = greet.charAt(greet.length-1);
-console.log("Char atzero index:",charAtLastIndex); 
+console.log("Char at Last index:",charAtLastIndex); 
 
 for(var i=0; i<greet.length;i++){
     console.log(greet.charAt(greet.length-1)); 
