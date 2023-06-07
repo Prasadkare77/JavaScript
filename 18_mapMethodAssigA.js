@@ -28,3 +28,5 @@ arrayNumbers.forEach((elememt, index) => {
     indArray.push(sum);
 })
 console.log(`Added index into element:${indArray}`);
+
+
