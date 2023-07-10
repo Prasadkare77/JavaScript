@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML & JavaScript are crucial technologies</h1>
+            <P>The web would not work witout them</P>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li>Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        // Your solution code goes here
+        const mainHeading = document.querySelector("h1");
+        console.log(mainHeading.innerHTML);
+
+        const secondAdvantage = document.querySelectorAll("li");
+        const secondElement = secondAdvantage[1].innerHTML;
+        console.log(secondElement);
+
+        const advDiv = document.querySelectorAll('#advantages');
+        console.log(advDiv[0].innerHTML);
+    </script>
+</body>
+</html>
