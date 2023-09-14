@@ -9,6 +9,12 @@ arrayNumbers.forEach((elememt) => {
     let add = elememt + 10;
     newArray.push(add);
 })
+
+const addten = arrayNumbers.map((element)=>{
+    element=element+10;
+})
+console.log(addten);
+
 console.log(`New array: ${newArray}`);
 
 console.log(``);

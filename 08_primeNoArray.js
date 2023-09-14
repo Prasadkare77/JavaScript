@@ -1,13 +1,19 @@
 
 function primeNo(...arrayNum){
+    let isPrime = true;
     console.log(`Array is: ${arrayNum}`);
     const arrayPrime = [];
-    for(let i=0; i<arrayNum.length; i++){
-        if(arrayNum[i]%2 != 0 || arrayNum[i]==2){
-            arrayPrime.push(arrayNum[i]);
+    for(let i=2; i<arrayNum.length; i++){
+        if(arrayNum[i]%2 == 0){
+            isPrime=false;
+            break;
         }
     }
-    console.log(`Prime number array : ${arrayPrime}`);
+    if(isPrime){
+        arrayPrime.push(arrayNum)
+        console.log(`Prime number array : ${arrayPrime}`);
+    }
+    
 }
 primeNo(2,19,123,34,56,78,100);
 

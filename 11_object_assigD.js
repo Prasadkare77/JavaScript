@@ -1,6 +1,6 @@
 
 let professor = {
-    profId: 03,
+    profId: '03',
     profName: "Elon Musk",
     deparment: "Computer",
     subject: "Data Structures",
