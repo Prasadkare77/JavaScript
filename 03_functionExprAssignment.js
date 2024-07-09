@@ -77,7 +77,7 @@ var strigOper = function(){
 
     console.log("");
 
-    console.log("F. Find the total number words of the given string and then calculate the swuare of it and log it.");
+    console.log("F. Find the total number words of the given string and then calculate the square of it and log it.");
     var totalWords = string.split(" ");
     console.log(`Total no of word in string is: ${totalWords.length}`);
     var result = squareOfNumbers(8);
